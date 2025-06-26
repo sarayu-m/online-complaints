@@ -1,0 +1,73 @@
+.register-wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.register-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.form-box {
+  width: 80%;
+  max-width: 400px;
+  background-color: black;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-box h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.form-box input,
+.form-box select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #4e5cf2;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-box button:hover {
+  background-color: #3d4cc1;
+}
+
+.form-box p {
+  text-align: center;
+  margin-top: 15px;
+  color: #666;
+}
+
+.register-right {
+  flex: 1;
+  background: url('https://www.shutterstock.com/image-photo/close-image-laptop-dark-neon-600nw-2353102349.jpg')
+    no-repeat center center;
+  background-size: cover;
+  filter: brightness(0.85);
+}

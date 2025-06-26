@@ -1,0 +1,60 @@
+.login-page {
+  background-image: url('https://t4.ftcdn.net/jpg/06/67/43/77/360_F_667437709_f8fCt8tCHM84H0pTtJ0SdN4UJ15SeC35.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-form {
+  background-color: rgba(0, 0, 0, 0.5); 
+  backdrop-filter: blur(10px);         
+  -webkit-backdrop-filter: blur(10px); 
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.auth-form h2 {
+  margin-bottom: 24px;
+  text-align: center;
+  color: white;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.auth-form input:focus {
+  border-color: blue;
+  outline: none;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover {
+  background-color: blue;
+}
